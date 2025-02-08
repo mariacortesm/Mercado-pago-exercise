@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 120px;
+  background-color: #ffff;
+}
+
+.logo {
+  object-fit: cover;
+  width: 140px;
+  height: 37.59px;
+}
+
+.section-menu {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-arrow {
+  display: flex;
+  gap: 8px;
+  align-items: center; 
+}
+
+.arrow {
+  justify-content: space-between;
+  height: 24px;
+  width: 24px;
+  gap: 2px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  padding: 16px;
+  gap: 10px
+}
+
+.text-1 {
+  color: #6C6C6C;
+  size: 16px;
+  font-weight: 400;
+  font-family: 'Monserrat';
+}
+
+.principal-banner {
+  background-image: url('./assets/img-principal-banner.png');
+  height: 520px;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-title {
+  margin: 0;
+}
