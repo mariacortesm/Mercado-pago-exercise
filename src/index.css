@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/Proxima-Nova-Font.otf") format("opentype");
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Proxima Nova", sans-serif;
 }
 
 .section-navbar {
@@ -49,16 +55,70 @@ body {
   color: #6C6C6C;
   size: 16px;
   font-weight: 400;
-  font-family: 'Monserrat';
+  letter-spacing: -0.42px;
 }
 
 .principal-banner {
   background-image: url('./assets/img-principal-banner.png');
   height: 520px;
   margin: 0;
-  padding: 0;
+  padding: 80px 0px 40px 120px;
+  background-repeat: no-repeat;
+}
+
+.section-banner {
+  display: flex;
+  flex-direction: column;
+  width: 516px;
 }
 
 .banner-title {
   margin: 0;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 48px;
+  letter-spacing: -0.42px;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+
+.banner-text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.42px;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+
+.label-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.42px;
+  color: #FFFFFF;
+  gap: 8px;
+}
+
+.banner-input-1 {
+  width: 328px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #B0B0B0;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.banner-button {
+  color: #FFFFFF;
+  background-color: #0060D0;
+  width: 155px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: none;
 }
