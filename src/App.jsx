@@ -4,7 +4,7 @@ import { NavBar } from './navBar';
 import { PrincipalBanner } from './principalBanner';
 import { DividingTitle } from './dividingTitle';
 import { CardsOptions } from './cardsOptions';
-
+import { SecondBanner } from './secondBanner';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +15,7 @@ function App() {
       <PrincipalBanner />
       <DividingTitle />
       <CardsOptions />
+      <SecondBanner />
       <div>
       </div>
     </>
