@@ -159,3 +159,58 @@ body {
 .american-express {
   margin: 0;
 }
+
+.section-second-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.div-signo-pesos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+}
+
+.div-second-banner {
+  display: flex;
+  width: 996px;
+  height: 196px;
+  border-radius: 24px;
+  padding: 40px;
+  background-color: #0A0080;
+}
+
+.title-second-banner {
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.text-one-second-banner {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-two-second-banner {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text-three-second-banner {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: 700;
+}
