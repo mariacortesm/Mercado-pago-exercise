@@ -5,6 +5,7 @@ import { PrincipalBanner } from './principalBanner';
 import { DividingTitle } from './dividingTitle';
 import { CardsOptions } from './cardsOptions';
 import { SecondBanner } from './secondBanner';
+import { CardsBenefits } from './cardsBenefits';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <DividingTitle />
       <CardsOptions />
       <SecondBanner />
+      <CardsBenefits />
       <div>
       </div>
     </>
