@@ -225,3 +225,23 @@ body {
 .principal-div-cards-benefits {
   display: flex;
 }
+
+.section-third-banner {
+  display: flex;
+  background-color: #00BCFF;
+}
+
+.text-one-third-banner {
+  color: #0A0080;
+
+}
+
+.text-two-third-banner {
+  color: #0A0080;
+
+}
+
+.text-three-third-banner {
+  color: #0A0080;
+
+}
