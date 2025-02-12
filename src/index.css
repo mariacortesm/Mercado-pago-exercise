@@ -59,8 +59,8 @@ body {
 }
 
 .principal-banner {
+  display: flex;
   background-image: url('./assets/img-principal-banner.png');
-  height: 520px;
   margin: 0;
   padding: 80px 0px 40px 120px;
   background-repeat: no-repeat;
@@ -84,18 +84,19 @@ body {
 
 .banner-text {
   margin: 0;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 23px;
   line-height: 24px;
   letter-spacing: -0.42px;
   color: #FFFFFF;
   margin-bottom: 22px;
+ text-align: justify;
 }
 
 .label-text {
   display: flex;
   flex-direction: column;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.42px;
@@ -121,4 +122,40 @@ body {
   border-radius: 8px;
   padding: 10px 16px;
   border: none;
+}
+
+.section-dividing-title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-dividing-title {
+  width: 789px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.section-text-title {
+  font-size: 29px;
+  text-align: center;
+  font-weight: 600;
+  color: #0A0080;
+}
+
+.text-cards-options {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #0A0080;
+  text-align: center;
+}
+
+.div-cards-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.american-express {
+  margin: 0;
 }
